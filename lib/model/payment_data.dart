@@ -18,7 +18,7 @@ class PaymentData {
   String merchantUid; // 주문번호
 
   String? name; // 주문명
-  int amount; // 결제금액
+  double amount; // 결제금액
 
   @JsonProperty(name: 'custom_data')
   Map<String, String>? customData; // 임의 지정 데이터
